@@ -32,8 +32,8 @@ def processRequest(req):
     if req.get("result").get("action") != "yahooWeatherForecast":
         return {
             res =  {
-                "speech": speech,
-                "displayText": speech,
+                "speech": "Esto es una prueba del servidor",
+                "displayText": "Esto es una prueba del servidor",
                 # "data": data,
                 # "contextOut": [],
                 "source": "apiai-weather-webhook-sample"
